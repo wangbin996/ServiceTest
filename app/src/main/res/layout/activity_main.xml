@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/start_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动服务" />
+
+    <Button
+        android:id="@+id/stop_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止服务" />
+
+    <Button
+        android:id="@+id/bind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定服务并开始下载" />
+
+    <Button
+        android:id="@+id/unbind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消绑定服务并销毁" />
+
+    <Button
+        android:id="@+id/get_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取下载进度" />
+
+    <Button
+        android:id="@+id/start_intent_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start IntentService" />
+
+</LinearLayout>
